@@ -300,7 +300,7 @@ with st.sidebar:
     st.session_state.target_range = [target_min, target_max]
 
     st.markdown("### Navigation")
-    app_mode = st.radio("", ["Dashboard", "Log Glucose", "Meal Planner", "History"])
+    app_mode = st.radio("", ["Log Glucose", "Meal Planner","Dashboard","History"])
     st.markdown("</div>", unsafe_allow_html=True)
 
 # Main app
